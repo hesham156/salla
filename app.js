@@ -31,5 +31,5 @@ const choseThem=(themName,siteName,logo,BG,PColor,SColor,companyName,companyUrl)
     addCompanyName(companyName,companyUrl)
 
 }
-  
+
 choseThem('raval')
