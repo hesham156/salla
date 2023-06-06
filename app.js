@@ -25,7 +25,9 @@ const choseThem=(themName,siteName,logo,BG,PColor,SColor,companyName,companyUrl)
             --site-name:'الحقوق محفوظه لدي ${siteName}'
         
     }
-    `
+    `;
+    document.head.appendChild(style);
+
     let link = createElm('link',false,`https://raw.githack.com/hesham156/salla/main/css/${themName}.css`);
     document.head.appendChild(link)
     addCompanyName(companyName,companyUrl)
