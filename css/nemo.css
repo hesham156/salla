@@ -165,6 +165,9 @@ section.section,.section-header .section--title,.section-actions,.breadcrumb-con
 p.product-details__price * {
    color: white !important;
    }
+.product-add {
+   animation: unset;
+}
 @keyframes signal {
     0% {
         box-shadow: 0 0 0 0 #dfd8fb;
