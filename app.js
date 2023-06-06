@@ -30,7 +30,7 @@ const choseThem=(themName,siteName,logo,BG,PColor,SColor,companyName,companyUrl)
 
     let link = createElm('link',false,`https://raw.githack.com/hesham156/salla/main/css/${themName}.css`);
     document.head.appendChild(link)
-    addCompanyName(companyName,companyUrl)
+    companyName?addCompanyName(companyName,companyUrl):''
 
 }
 
