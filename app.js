@@ -34,4 +34,3 @@ const choseThem=(themName,siteName,logo,BG,PColor,SColor,companyName,companyUrl)
 
 }
 
-choseThem('raval')
