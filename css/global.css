@@ -1,9 +1,3 @@
-:root{
-    --primary-color:black;
-    --secendery-color:white;
-    --logo:url('logo');
-    --body-bg:url('https://snyk.io/advisor/images/snyk-icon-intellij.svg');
-}
 body{
     background-image: var(--body-bg);
     background-size: cover;
