@@ -13,4 +13,10 @@ const choseThem=(themName)=>{
     let link = createElm('link',false,`./css/${themName}.css`);
     document.head.appendChild(link)
 }
+const addCompanyName =(companyName,url)=>{
+    let h5 = createElm('h5','text-center');
+    h5.innerHTML=`صنع بحب بواسطه <a href=${url}>${companyName}</a>`;
+    document.querySelector('footer').appendChild(h5);
+}
 choseThem('raval')
+addCompanyName('azzrk','hh')
