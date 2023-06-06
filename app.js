@@ -6,18 +6,17 @@ const createElm = (type,elmClass,src)=>{
       elm.src?elm.src=src:elm.href=src;
       type==="link"?elm.rel="stylesheet":'';
       return elm;
-};
-let link = createElm('link',false,`./css/global.css`);
+}
+let link = createElm('link',false,`https://raw.githack.com/hesham156/salla/main/css/global.css`);
 document.head.appendChild(link)
 const choseThem=(themName)=>{
-    let link = createElm('link',false,`./css/${themName}.css`);
-    document.head.appendChild(link);
-};
+    let link = createElm('link',false,`https://raw.githack.com/hesham156/salla/main/css/${themName}.css`);
+    document.head.appendChild(link)
+}
 const addCompanyName =(companyName,url)=>{
     let h5 = createElm('h5','text-center');
     h5.innerHTML=`صنع بحب بواسطه <a href=${url}>${companyName}</a>`;
     document.querySelector('footer').appendChild(h5);
-};
-const addPopup = ()=>{};
-// choseThem('raval')
-// addCompanyName('azzrk','hh')
+}
+choseThem('raval')
+addCompanyName('azzrk','hh')
