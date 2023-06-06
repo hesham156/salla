@@ -18,5 +18,5 @@ const addCompanyName =(companyName,url)=>{
     h5.innerHTML=`صنع بحب بواسطه <a href=${url}>${companyName}</a>`;
     document.querySelector('footer').appendChild(h5);
 }
-choseThem('raval')
-addCompanyName('azzrk','hh')
+// choseThem('raval')
+// addCompanyName('azzrk','hh')
