@@ -1,0 +1,33 @@
+/* Add custom CSS styles below */ 
+.s-block--hero-slider .swiper-slide .swiper-lazy:after{
+    background-color: rgb(0 0 0 / 0%);
+
+}
+.two-row .banner-entry:first-child {
+     grid-column: unset; 
+     grid-row: unset; 
+}
+.lazy__bg.lazy.entered.loaded {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner-entry{
+    background-color: #f9fafc;
+
+}
+@media (min-width: 1280px){
+.s-block--hero-slider .swiper-slide {
+    height: 830px;
+}}
+@media (min-width: 768px){
+.md\:grid-cols-3 {
+    grid-template-columns: 1fr 1fr;
+}}
+@media (max-width: 700px){
+.s-block--hero-slider .swiper-slide {
+    height: 130px;
+}
+.min-h-\[300px\] {
+    min-height: 220px;
+}
+}
